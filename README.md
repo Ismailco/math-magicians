@@ -18,6 +18,7 @@ To get a local copy up and running follow these simple example steps:
 $ git clone git@github.com:Ismailco/math-magicians.git
 
 ```
+```
 $ cd math-magicians
 ```
 
