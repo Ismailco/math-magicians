@@ -2,7 +2,7 @@ import React from 'react';
 import './Calculator.css';
 
 class Calculator extends React.Component {
-  constructor(props = 0) {
+  constructor(props) {
     super(props);
     this.props = props;
   }
