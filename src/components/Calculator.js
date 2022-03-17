@@ -10,7 +10,7 @@ const Calculator = () => {
   });
 
   const click = (e) => {
-    setItems({ calc: calculate(calc, e.target.innerHTML) });
+    setItems(calculate(calc, e.target.innerHTML));
   };
 
   return (
