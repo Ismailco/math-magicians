@@ -1,38 +1,92 @@
 import React from 'react';
+import calculate from '../logic/calculate';
 import './Calculator.css';
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.props = props;
+    this.state = {
+      calc: {
+        total: null,
+        next: null,
+        operation: null,
+      },
+    };
+    this.click = this.click.bind(this);
+  }
+
+  click(e) {
+    const { calc } = this.state;
+    this.setState({
+      calc: calculate(calc, e.target.innerHTML),
+    });
   }
 
   render() {
+    const { calc } = this.state;
     return (
       <div className="calculator">
-        <input className="input" type="number" value={0} readOnly />
+        <input className="input" value={calc.total ? calc.total : 0} readOnly />
         <div className="test">
-          <ul className="numbers-symbols">
-            <li className="buttons">AC</li>
-            <li className="buttons">+/-</li>
-            <li className="buttons">%</li>
-            <li className="buttons operators">÷</li>
-            <li className="buttons numbers">7</li>
-            <li className="buttons numbers">8</li>
-            <li className="buttons numbers">9</li>
-            <li className="buttons operators">x</li>
-            <li className="buttons numbers">4</li>
-            <li className="buttons numbers">5</li>
-            <li className="buttons numbers">6</li>
-            <li className="buttons operators">-</li>
-            <li className="buttons numbers">1</li>
-            <li className="buttons numbers">2</li>
-            <li className="buttons numbers">3</li>
-            <li className="buttons operators">+</li>
-            <li className="buttons numbers twoColl">0</li>
-            <li className="buttons">.</li>
-            <li className="buttons operators">=</li>
-          </ul>
+          <div className="numbers-symbols">
+            <button type="button" className="buttons" onClick={this.click}>
+              AC
+            </button>
+            <button type="button" onClick={this.click} className="buttons">
+              +/-
+            </button>
+            <button type="button" onClick={this.click} className="buttons">
+              %
+            </button>
+            <button type="button" onClick={this.click} className="buttons operators">
+              ÷
+            </button>
+            <button type="button" onClick={this.click} className="buttons numbers">
+              7
+            </button>
+            <button type="button" onClick={this.click} className="buttons numbers">
+              8
+            </button>
+            <button type="button" onClick={this.click} className="buttons numbers">
+              9
+            </button>
+            <button type="button" onClick={this.click} className="buttons operators">
+              x
+            </button>
+            <button type="button" onClick={this.click} className="buttons numbers">
+              4
+            </button>
+            <button type="button" onClick={this.click} className="buttons numbers">
+              5
+            </button>
+            <button type="button" onClick={this.click} className="buttons numbers">
+              6
+            </button>
+            <button type="button" onClick={this.click} className="buttons operators">
+              -
+            </button>
+            <button type="button" onClick={this.click} className="buttons numbers">
+              1
+            </button>
+            <button type="button" onClick={this.click} className="buttons numbers">
+              2
+            </button>
+            <button type="button" onClick={this.click} className="buttons numbers">
+              3
+            </button>
+            <button type="button" onClick={this.click} className="buttons operators">
+              +
+            </button>
+            <button type="button" onClick={this.click} className="buttons numbers twoColl">
+              0
+            </button>
+            <button type="button" onClick={this.click} className="buttons">
+              .
+            </button>
+            <button type="button" onClick={this.click} className="buttons operators">
+              =
+            </button>
+          </div>
         </div>
       </div>
     );
