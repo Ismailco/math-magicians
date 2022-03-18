@@ -3,12 +3,17 @@
 > This is my first react.js App, that I build while learning React. The App has the functionality of Calculator and some mathematic quotes.
 
 ## Getting Started
+
 ### Prerequisites
 
 You need to have a browser and this tools installed:
 
 - git
 - Node
+
+### Live link
+
+- [Github Pages](https://ismailco.github.io/math-magicians/build)
 
 ### Setup
 
@@ -18,6 +23,7 @@ To get a local copy up and running follow these simple example steps:
 $ git clone git@github.com:Ismailco/math-magicians.git
 
 ```
+
 ```
 $ cd math-magicians
 ```
