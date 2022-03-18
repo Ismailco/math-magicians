@@ -13,7 +13,7 @@ You need to have a browser and this tools installed:
 
 ### Live link
 
-- [Github Pages](https://ismailco.github.io/math-magicians/)
+- [Github Pages](https://ismailco.github.io/math-magicians/build)
 
 ### Setup
 
