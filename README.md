@@ -2,6 +2,10 @@
 
 > This is my first react.js App, that I build while learning React. The App has the functionality of Calculator and some mathematic quotes.
 
+## Build with
+
+- React
+
 ## Getting Started
 
 ### Prerequisites
@@ -69,10 +73,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-This project uses the OMDb API
 
 ## 📝 License
 
