@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import QuotesPage from './components/Quotes';
@@ -13,13 +14,15 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <BrowserRouter>
         <Header />
-        <CalculatPage />
-        <HomePage />
-        <QuotesPage />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="calc" element={<CalculatPage />} />
+          <Route path="quotes" element={<QuotesPage />} />
+        </Routes>
         <Footer />
-      </div>
+      </BrowserRouter>
     );
   }
 }
