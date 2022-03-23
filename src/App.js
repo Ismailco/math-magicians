@@ -1,5 +1,9 @@
 import React from 'react';
-import Calculator from './components/Calculator';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import QuotesPage from './components/Quotes';
+import CalculatPage from './components/CalculatPage';
+import HomePage from './components/Home';
 
 class App extends React.Component {
   constructor(props) {
@@ -10,7 +14,11 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Calculator />
+        <Header />
+        <CalculatPage />
+        <HomePage />
+        <QuotesPage />
+        <Footer />
       </div>
     );
   }
