@@ -1,12 +1,6 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
 .calculator {
-  width: 40%;
   font-family: sans-serif;
+  border-radius: 10px;
 }
 
 .input {
@@ -18,6 +12,7 @@
   outline: none;
   border: none;
   font-size: 25px;
+  border-radius: 5px;
 }
 
 .numbers-symbols {
@@ -32,6 +27,11 @@
   padding: 20px;
   border: 1px solid #9e9e9e6e;
   background-color: aliceblue;
+  border-radius: 5px;
+}
+
+.buttons:active {
+  background-color: #9e9e9e;
 }
 
 .operators {

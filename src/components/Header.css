@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: aliceblue;
+}
+
+.nav {
+  margin-right: 30px;
+}
+
+.nav-link {
+  margin-right: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  color: #3e3e3e;
+  font-weight: 600;
+}
+
+.nav-link:nth-child(2),
+.nav-link:nth-child(3) {
+  border-left: 1px solid #3e3e3e;
+}
