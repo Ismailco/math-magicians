@@ -10,6 +10,8 @@
 
 ### [Heruko](https://mv-calculator.herokuapp.com/)
 
+### [Netlify](https://mathmagician2022.netlify.app/)
+
 ## Getting Started
 
 ### Prerequisites
