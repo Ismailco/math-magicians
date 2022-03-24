@@ -6,6 +6,14 @@
 
 - React
 
+## Live Links
+
+### [Heruko](https://mv-calculator.herokuapp.com/)
+
+### [Netlify](https://mathmagician2022.netlify.app/)
+
+### [Github Pages](https://ismailco.github.io/math-magicians/build)
+
 ## Getting Started
 
 ### Prerequisites
@@ -14,10 +22,6 @@ You need to have a browser and this tools installed:
 
 - git
 - Node
-
-### Live link
-
-- [Github Pages](https://ismailco.github.io/math-magicians/build)
 
 ### Setup
 
