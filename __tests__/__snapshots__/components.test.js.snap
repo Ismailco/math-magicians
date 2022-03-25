@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Use snapshots to test the components Create the Caculate page snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="calculatPage"
+  >
+    <p
+      class="opening"
+    >
+      Let's do some math!
+    </p>
+    <div
+      class="calculator"
+    >
+      <input
+        class="input"
+        readonly=""
+        value="0"
+      />
+      <div
+        class="test"
+      >
+        <div
+          class="numbers-symbols"
+        >
+          <button
+            class="buttons"
+            type="button"
+          >
+            AC
+          </button>
+          <button
+            class="buttons"
+            type="button"
+          >
+            +/-
+          </button>
+          <button
+            class="buttons"
+            type="button"
+          >
+            %
+          </button>
+          <button
+            class="buttons operators"
+            type="button"
+          >
+            ÷
+          </button>
+          <button
+            class="buttons numbers"
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="buttons numbers"
+            type="button"
+          >
+            8
+          </button>
+          <button
+            class="buttons numbers"
+            type="button"
+          >
+            9
+          </button>
+          <button
+            class="buttons operators"
+            type="button"
+          >
+            x
+          </button>
+          <button
+            class="buttons numbers"
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="buttons numbers"
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="buttons numbers"
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="buttons operators"
+            type="button"
+          >
+            -
+          </button>
+          <button
+            class="buttons numbers"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="buttons numbers"
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="buttons numbers"
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="buttons operators"
+            type="button"
+          >
+            +
+          </button>
+          <button
+            class="buttons numbers twoColl"
+            type="button"
+          >
+            0
+          </button>
+          <button
+            class="buttons"
+            type="button"
+          >
+            .
+          </button>
+          <button
+            class="buttons operators"
+            type="button"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Use snapshots to test the components Create the Home page snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="home-page"
+  >
+    <h2
+      class="headline"
+    >
+      Welcome to our page!
+    </h2>
+    <p
+      class="paragraph"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima asperiores quisquam mollitia consectetur libero sunt perspiciatis, et sed sint ex in labore, aliquid magni laboriosam iure expedita. Fugit, amet.
+    </p>
+    <p
+      class="paragraph"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi neque consectetur ut eveniet vel dignissimos et modi quibusdam impedit necessitatibus, dolores, asperiores debitis dolor dolorem soluta ipsa fugit iusto placeat?
+    </p>
+    <p
+      class="paragraph"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum reprehenderit natus est et tempore, quisquam ratione expedita quam asperiores repellendus sint. Eveniet doloribus aliquam laudantium commodi, tempora odio repudiandae nemo?
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Use snapshots to test the components Create the Quote page snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="quotes-page"
+  >
+    <h3
+      class="quote"
+    >
+      Mathematics is not about numbers, equations, computations, or algorithms: it is about undrstanding. -William Paul Thurston
+    </h3>
+  </div>
+</DocumentFragment>
+`;
