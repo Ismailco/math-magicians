@@ -5,16 +5,16 @@ import { Link } from 'react-router-dom';
 function Headers() {
   return (
     <div className="header">
-      <h1 className="logo">Math Magicians</h1>
+      <h1 className="logo">🪄 Math Magicians 🪄</h1>
       <nav className="nav">
         <Link className="nav-link" to="/">
-          Home
+          🏠 Home
         </Link>
         <Link className="nav-link" to="/calc">
-          Calculator
+          🖩 Calculator
         </Link>
         <Link className="nav-link" to="/quotes">
-          Quotes
+          📜 Quotes
         </Link>
       </nav>
     </div>
