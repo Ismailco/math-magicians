@@ -3,6 +3,7 @@
 > This is my first react.js App, that I build while learning React. The App has the functionality of Calculator and some mathematic quotes.
 
 ![](./screenshot.png)
+![](./screenshot1.png)
 
 ## Build with
 
@@ -13,8 +14,6 @@
 ### [Heruko](https://mv-calculator.herokuapp.com/)
 
 ### [Netlify](https://mathmagician2022.netlify.app/)
-
-### [Github Pages](https://ismailco.github.io/math-magicians/build)
 
 ## Getting Started
 
