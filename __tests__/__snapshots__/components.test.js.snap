@@ -153,22 +153,22 @@ exports[`Use snapshots to test the components Create the Home page snapshot 1`] 
     <h2
       class="headline"
     >
-      Welcome to our page!
+      Welcome Math Magicians!
     </h2>
     <p
       class="paragraph"
     >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima asperiores quisquam mollitia consectetur libero sunt perspiciatis, et sed sint ex in labore, aliquid magni laboriosam iure expedita. Fugit, amet.
+      Mathematics (from Ancient Greek μάθημα (máthēma) 'knowledge, study, learning') is an area of knowledge, which includes the study of such topics as numbers, formulas and related structures, shapes and spaces in which they are contained, and quantities and their changes. There is no general consensus about its exact scope or epistemological status.
     </p>
     <p
       class="paragraph"
     >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi neque consectetur ut eveniet vel dignissimos et modi quibusdam impedit necessitatibus, dolores, asperiores debitis dolor dolorem soluta ipsa fugit iusto placeat?
+      Most of mathematical activity consists of discovering and proving (by pure reasoning) properties of abstract objects. These objects are either abstractions from nature (such as natural numbers or lines), or (in modern mathematics) abstract entities of which certain properties, called axioms, are stipulated. A proof consists of a succession of applications of some deductive rules to already known results, including previously proved theorems, axioms and (in case of abstraction from nature) some basic properties that are considered as true starting points of the theory under consideration. The result of a proof is called a theorem.
     </p>
     <p
       class="paragraph"
     >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum reprehenderit natus est et tempore, quisquam ratione expedita quam asperiores repellendus sint. Eveniet doloribus aliquam laudantium commodi, tempora odio repudiandae nemo?
+      Mathematics is essential in many fields, including natural sciences, engineering, medicine, finance, computer science and social sciences. Some areas of mathematics, such as statistics and game theory, are developed in direct correlation with their applications, and are often grouped under the name of applied mathematics. Other mathematical areas are developed independently from any application (and are therefore called pure mathematics), but practical applications are often discovered later.[8][9] A fitting example is the problem of integer factorization, which goes back to Euclid, but which had no practical application before its use in the RSA cryptosystem (for the security of computer networks).
     </p>
   </div>
 </DocumentFragment>

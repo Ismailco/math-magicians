@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -13,7 +13,7 @@
 }
 
 .calculator {
-  border: 3px solid #3e3e3e;
+  border: 3px solid transparent;
   width: 500px;
 }
 
