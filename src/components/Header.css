@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Comic Neue', cursive;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 10px;
-  background-color: aliceblue;
+  margin: 20px auto;
+  width: 95vw;
+  padding: 15px 10px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .nav {
@@ -18,13 +25,19 @@
 
 .nav-link {
   margin-right: 10px;
-  padding-left: 10px;
+  padding: 10px;
   text-decoration: none;
   color: #3e3e3e;
   font-weight: 600;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 1px 1px 10px rgb(226, 226, 226);
 }
 
-.nav-link:nth-child(2),
-.nav-link:nth-child(3) {
-  border-left: 1px solid #3e3e3e;
+.nav-link:hover {
+  box-shadow: 1px 1px 10px rgb(160, 160, 160);
+}
+
+.nav-link:active {
+  box-shadow: 1px 1px 10px rgb(53, 53, 53);
 }

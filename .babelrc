@@ -1,6 +1,10 @@
 {
   "presets": [
-      "@babel/preset-react"
+      "@babel/preset-react", "@babel/preset-env"
   ],
-  "plugins": ["@babel/plugin-syntax-jsx"]
+  "targets": {
+      "node": "current"
+    },
+  "plugins": ["@babel/plugin-syntax-jsx"],
+    
 }

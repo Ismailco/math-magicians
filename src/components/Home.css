@@ -1,9 +1,12 @@
 .home-page {
-  margin: 20px;
+  margin: 30px 30px 30px 30px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 5px 15px 20px rgba(0, 0, 0, 0.3);
 }
 
 .headline {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .paragraph {
