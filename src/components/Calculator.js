@@ -15,7 +15,7 @@ const Calculator = () => {
 
   return (
     <div className="calculator">
-      <input className="input" value={calc.total ? calc.total : 0} readOnly />
+      <input className="input" value={calc.next ? calc.next : calc.total || 0} readOnly />
       <div className="test">
         <div className="numbers-symbols">
           <button type="button" className="buttons" onClick={click}>
