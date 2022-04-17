@@ -3,7 +3,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" data-role="footer" data-position="fixed">
       <p className="copy">
         All right Reserved.
         <br />
