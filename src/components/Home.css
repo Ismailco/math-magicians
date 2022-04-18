@@ -9,6 +9,10 @@
   margin-top: 10px;
 }
 
+.page-content {
+  height: max-content;
+}
+
 .paragraph {
   margin-top: 30px;
   line-height: 1.5em;
