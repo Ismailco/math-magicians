@@ -5,6 +5,8 @@
   margin-top: 50px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 50px;
+  width: 100vw;
 }
 
 .opening {
@@ -14,7 +16,7 @@
 
 .calculator {
   border: 3px solid transparent;
-  width: 500px;
+  width: 50vw;
 }
 
 @media screen and (max-width: 700px) {
@@ -24,5 +26,6 @@
 
   .calculator {
     margin-top: 70px;
+    width: 90vw;
   }
 }
